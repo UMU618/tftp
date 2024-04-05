@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include=".\_gui\about.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\browse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_main\cmd_line.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_common\dialog_common.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_main\GUI main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_bootpd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_bootpd_settings.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_dialog.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_dns.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_gauges.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_log.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_move_win.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_settings.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_syslogd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_tftp_dir.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_tftpd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_main\service edition.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_common\setinifilename.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\tftp_cli.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{cda55577-dd9d-4642-a02e-9ed77c750142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{04aaab01-851e-407c-9e82-d22f96ebf1f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="_gui\tftpd_gui.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

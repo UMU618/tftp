@@ -1,0 +1,13 @@
+﻿bak/
+bin/
+tmp/
+*.bak
+*.tmp
+
+# VS
+.vs/
+*.vcxproj.user
+*.aps
+
+# macOS
+.DS_Store

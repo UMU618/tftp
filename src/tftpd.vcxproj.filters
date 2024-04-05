@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include=".\_gui\about.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\async_log.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\bootpd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\bootpd_console.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\bootpd_util.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\browse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_main\cmd_line.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\console_actions.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_common\dialog_common.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\dns.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="_main\firewall.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_bootpd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_bootpd_settings.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_dialog.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_dns.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_gauges.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_log.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_move_win.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_settings.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_syslogd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_tftp_dir.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\gui_tftpd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\ip_thread.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\ip_util.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_main\main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_main\outofthebox.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\registry_thread.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\service_main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_common\setinifilename.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\settings.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\sntpd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\start_threads.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\syslogd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_gui\tftp_cli.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\tftp_dbg.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\tftpd_main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\tftpd_thread.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\tftpd_util.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\to_console.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{ade72fef-1f60-4970-9f67-c33451ca413f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{c136cae3-d34b-4d36-baf7-c1c31c00f396}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="_gui\tftpd_gui.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

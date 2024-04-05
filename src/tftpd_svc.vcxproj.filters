@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include=".\_services\async_log.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\bootpd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\bootpd_console.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\bootpd_util.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\console_actions.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_common\dialog_common.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\dns.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\ip_thread.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\ip_util.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\registry_thread.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_main\service edition.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_main\service stuff.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\service_main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_common\setinifilename.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\settings.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\sntpd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\start_threads.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_main\Svc main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\syslogd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\tftp_dbg.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\tftpd_main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\tftpd_thread.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\tftpd_util.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include=".\_services\to_console.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{57b3ff57-a198-4159-99d8-21d28fabe050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{0b39003b-a049-415f-bb1a-1ec469a25986}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="_services\tftpd_svc.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
